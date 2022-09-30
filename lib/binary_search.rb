@@ -1,5 +1,8 @@
 # https://www.geeksforgeeks.org/binary-search/
 
+class Binary_search
+
+
 def binary_search(x)
     p "A lista de números é"
     lista = [10, 20, 80, 30, 60, 50,110, 100, 130, 170]
@@ -74,3 +77,5 @@ puts binary_search(110)
 #     lista.pop(tamanho/2)
 #     return lista 
 #  end
+
+end

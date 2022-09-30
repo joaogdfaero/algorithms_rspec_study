@@ -1,5 +1,6 @@
 require 'spec_helper'
 require 'hero'
+require 'binary_search'
 
 describe Hero do
     it 'has sword' do
@@ -7,3 +8,4 @@ describe Hero do
         expect(hero.weapon).to eq('sword')
     end
 end
+
