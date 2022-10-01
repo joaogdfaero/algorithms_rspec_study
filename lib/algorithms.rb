@@ -1,4 +1,19 @@
 class Algorithms
+    def bubble_sort (lista)
+        tamanho = lista.length
+    
+    
+        (0..3).each do |j|
+            (0..j).each do |i|
+                if lista[i]>lista[i+1]
+                   lista[i],lista[i+1] = lista[i+1], lista[i]
+                end
+            end
+        end
+    
+        return lista
+    end
+
 
     def binary_search(x)
 
@@ -42,7 +57,6 @@ class Algorithms
     
 
 
-end
+end 
 
-resultado = Algorithms.new
-p resultado.binary_search(110)
+    
